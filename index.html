@@ -11,7 +11,91 @@
 <body>
     <header id="container">
         <!-- HOME HEADER -->
-        <div class="logo"><img src="/assets/img/logo.png"></div><!-- LOGO -->
+        <nav> <!-- MENU -->
+            <ul>
+                <img class="logo" src="/assets/img/logo.png">
+                <li>Mulheres</li>
+                <li>Homens</li>
+                <li>Infantil</li>
+                <li>Esportes</li>
+                <li>Coleções</li>
+                <li>Outlet</li>
+            </ul>
+            <div id="serch">
+                <img src="/assets/img/search.png" alt="Buscar" />
+                <input class=serch1 type="text" placeholder="Buscar..." />
+            </div>
+        </nav> <!-- END MENU -->
+
+    </header>
+    <div id="bar">
+        <h2 class="titleOrange">VERÃO PUMA | Aproveite os descontos imperdíveis</h2>  <!-- BARRA DE OFERTAS -->
+    </div>
+    <!-- END HEADER -->
+    <main class="principal"> <!-- HOME SIDE PRINCIPAL -->
+        <div class="price_all">
+            <div class="sale_off">-30%</div> <!-- SALES OFF -->
+            <h1>PUMA RS-X X HE-MAN</h1> <!-- NAME TENIS -->
+            <div class="price"> <!-- HOME PRICE  -->
+                <h4>R$559,90<span>R$799,90</span></h4>
+                <h5>Art.: 386569_07</h5>
+                <a href="#">
+                    <h6>Seja o primeiro a escrever um comentário</h6><!-- LINK TO REVIEW -->
+                </a>
+            </div> <!-- END PRICE -->
+            <div class="portion">até 10x R$55,99 sem juros</div> <!-- PORTION -->
+            <img class="min-tenis" src="/assets/img/tenis_min.png" all="miniatura do tenis">
+
+            <label>
+                <!-- HOME SIZE AND QUANTITY  -->
+                <select class="size">
+                    <option>Escolha</option> <!-- SIZE -->
+                    <option value="Tamanho 36(24cm)">36(24cm)</option>
+                    <option value="Tamanho 37(25cm)">37(25cm)</option>
+                    <option value="Tamanho 38 (25.5" )>38(25.5cm)</option>
+                    <option value="Tamanho ">39(26.5cm)</option>
+
+                </select>
+
+                <select class="quantity">
+                    <!-- QUANTITY -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <input class="btn" type="submit" value="ADICIONAR AO CARRINHO">
+                <div class="tab-prod">
+                    <a href="#">
+                        <h5>TABELA DE MEDIDAS</h5>
+                    </a>
+                    <a href="#">
+                        <h5>MEDIDAS DO PRODUTO</h5>
+                    </a>
+                </div>
+            </label>
+            <label>
+                <div class="cep-border"></div>
+                <a class=cal-fret href="#">
+                    <h5>CALCULAR FRETE E ENTREGA</h5>
+                </a>
+                <input class="cep" type="tel" name="CEP" required>
+                <input class="appl" type="submit" value="APLICAR" required>
+            </label>
+
+        </div> <!-- END SIZE AND QUANTITY  -->
+        <div class="tenis">
+            <img src="/assets/img/tenis.jpg" alt="tenis">
+        </div>
+    </main>
+    <footer>
+
+
         <div class="social_media"><a src="#"> <!-- HOME SOCIAL MEDIAS -->
                 <img src="assets/img/facebook.png" alt="facebook">
                 <a src="#">
@@ -24,37 +108,36 @@
                     <img src="assets/img/lindekin.png" alt="whatsapp">
                 </a>
         </div>
-        <!-- END SOCIAL MEDIAS -->
-    </header>
-    <!-- END HEADER -->
-    <main class="principal"> <!-- HOME SIDE PRINCIPAL -->
+    </footer>
 
-        <div class="disc">
-            <h1>PUMA RS-X X HE-MAN</h1>
-            <p>Em comemoração ao 40° aniversário da série He-Man, a PUMA chega lançando mais uma coleção colaborativa
-                poderosa.
-                O PUMA RS -X Battle Cat é inspirado em “Pacato”, o Gato Guerreiro de He-Man. Despertando a memória de
-                uma geração. O modelo possui uma colorway em tons de verde, amarelo, bordô e branco, que remetem as
-                cores do personagem. Com o cabedal construído em próximos aos ilhós do cadarço. Todos os detalhes são
-                pensados para proporcionar aos fãs da animação uma viagem no tempo, com uma nova experiência em design e
-                inovação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---- <section class="info">
+        <div class="description">
+            <h2>INFORMAÇÕES</h2>
+            <h3>SOBRE O PRODUTO</h3>
+            <p>O RS-X segue em sua quarta temporada com um design que traz cabedal em lycra e mesh com sobreposições em
+                camurça e Materiais Sintéticos. Esta versão do tênis casual ainda conta com malha e cabedal de lycra com
+                sobreposições de camurça e Materiais Sintéticos.
             </p>
         </div>
 
-
-        <div class="tenis">
-            <img src="/assets/img/tenis.jpg" alt="tenis">
-        </div>
-
-
-
-
-
-
-
-    </main>
-    <!-- END SIDE PRINCIPAL -->
-
+    </section>
 
 </body>
 
