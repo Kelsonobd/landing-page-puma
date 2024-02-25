@@ -4,20 +4,58 @@
     text-decoration: none;
 }
 
+/* HOME HEADER */
 #container {
     height: 150px;
     background-color: rgb(0, 0, 0);
 }
 
-.logo{
+.logo {
     height: 20px;
 }
-.social_media{
+
+.social_media {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 15px;
     padding: 25px;
-   
+}
+.social_media img{
+    width:45px;
+}
 
+/* ENDE HEADER */
+
+/* HOME SIDE PRINCIPAL */
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 150px;
+    height: 950px;
+    background-color: rgb(232, 238, 236);
+}
+
+.disc {display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 45px;
+    margin-left: 90px;
+    width: auto;
+    height: 500px;
+    
+}
+.disc h1{
+    font-size: 35px;
+}
+
+.disc p{
+    font-size: 25px
+}
+
+
+
+.tenis img {
+    width: 800px;
 }
