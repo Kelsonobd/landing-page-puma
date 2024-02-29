@@ -15,7 +15,7 @@ ul img {
 
 }
 
-ul {
+.listNav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -23,7 +23,9 @@ ul {
     gap: 40px;
     list-style-type: none;
 }
-
+.listNav a{
+    text-decoration: none;
+}
 ul li {
     font-size: 20px;
     color: #FFF
@@ -280,33 +282,130 @@ section .insertPhoto {
     width: 350px;
     background-color: #ffffff;
     border: 1px solid #000;
+    margin-bottom: 20px;
 
 }
+
 /* END SECTION */
 
+/* START FOOTER */
 
+footer {
+    height: 600px;
+    background-color: #000000;
 
+}
 
+footer img {
+    height: 100px;
+    width: 170px;
+}
 
-
-
-
-/*
-.linha{
+footer .rodape {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    width: 300px;
-    height: 2px;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+
+.listFooter {
+    /* START CONTACT/ABOUT */
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.listFooter a {
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.rodape label {
+    display: flex;
+    flex-direction: column;
+}
+
+/* END CONTACT/ABOUT */
+
+label p {
+    /* START MEDIA SOCIAL */
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #FFF;
+
+}
+
+label .emailFooter {
+    height: 60px;
+    width: 500px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 3px solid #bab7b7;
     background-color: #000;
 }
 
-.box-cep{
+.socialMedia ul {
     display: flex;
-    flex-direction: column;
-    margin-top: 8px;
-    width: 200px;
-    height: 40px;
-
-    background-color: #f3eeee;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
 }
+
+
+ul li img {
+    /* IMG MEDIA SOCIAL */
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/* END MEDIA SOCIAL */
+.pFooter {
+    /* LINK TREINE COM OS MELHORES START */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 200px;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a {
+    color: #fff;
+    /* LINK TREINE COM OS MELHORES edn */
+}
+
+/* START BOX COUNTRY FOOTER */
+.dressFooter {
+    margin-top: 40px;
+    height: 400px;
+    background-color: #000;
+    border-top: 1px solid #a3a1a1;
+}
+
+label .country {
+    height: 60px;
+    width: 300px;
+    background-color: #000;
+    color: #FFF;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* END BOX COUNTRY FOOTER */
+
+.lastDress {
+    /* ADRESS FOOTER */
+    color: #FFF;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/*END FOOTER */
